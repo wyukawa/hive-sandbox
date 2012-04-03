@@ -1,0 +1,71 @@
+Hive history file=/tmp/wyukawa/hive_job_log_wyukawa_201204031931_924335612.txt
+OK
+Time taken: 24.888 seconds
+OK
+Time taken: 1.085 seconds
+OK
+Time taken: 0.6 seconds
+OK
+Time taken: 0.142 seconds
+OK
+Time taken: 0.491 seconds
+OK
+Time taken: 0.355 seconds
+Total MapReduce jobs = 3
+Launching Job 1 out of 3
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapred.reduce.tasks=<number>
+Starting Job = job_201203290005_0017, Tracking URL = http://localhost:50030/jobdetails.jsp?jobid=job_201203290005_0017
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -Dmapred.job.tracker=localhost:8021 -kill job_201203290005_0017
+2012-04-03 19:32:05,451 Stage-3 map = 0%,  reduce = 0%
+2012-04-03 19:32:54,079 Stage-3 map = 50%,  reduce = 0%
+2012-04-03 19:32:58,284 Stage-3 map = 100%,  reduce = 0%
+2012-04-03 19:33:21,541 Stage-3 map = 100%,  reduce = 67%
+2012-04-03 19:33:25,003 Stage-3 map = 100%,  reduce = 68%
+2012-04-03 19:33:28,211 Stage-3 map = 100%,  reduce = 93%
+2012-04-03 19:33:29,271 Stage-3 map = 100%,  reduce = 100%
+Ended Job = job_201203290005_0017
+Loading data to table default.choiki_name_table
+Deleted hdfs://localhost/user/hive/warehouse/choiki_name_table
+Launching Job 2 out of 3
+Launching Job 3 out of 3
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapred.reduce.tasks=<number>
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapred.reduce.tasks=<number>
+Starting Job = job_201203290005_0018, Tracking URL = http://localhost:50030/jobdetails.jsp?jobid=job_201203290005_0018
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -Dmapred.job.tracker=localhost:8021 -kill job_201203290005_0018
+Starting Job = job_201203290005_0019, Tracking URL = http://localhost:50030/jobdetails.jsp?jobid=job_201203290005_0019
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -Dmapred.job.tracker=localhost:8021 -kill job_201203290005_0019
+2012-04-03 19:34:09,346 Stage-4 map = 0%,  reduce = 0%
+2012-04-03 19:34:16,576 Stage-5 map = 0%,  reduce = 0%
+2012-04-03 19:34:47,630 Stage-4 map = 100%,  reduce = 0%
+2012-04-03 19:34:57,716 Stage-5 map = 100%,  reduce = 0%
+2012-04-03 19:35:40,147 Stage-4 map = 100%,  reduce = 67%
+2012-04-03 19:35:46,430 Stage-4 map = 100%,  reduce = 100%
+2012-04-03 19:35:46,443 Stage-5 map = 100%,  reduce = 100%
+Ended Job = job_201203290005_0019
+Loading data to table default.todoufuken_name_table
+Deleted hdfs://localhost/user/hive/warehouse/todoufuken_name_table
+Ended Job = job_201203290005_0018
+Loading data to table default.choson_name_table
+Deleted hdfs://localhost/user/hive/warehouse/choson_name_table
+84819 Rows loaded to choiki_name_table
+1882 Rows loaded to choson_name_table
+OK
+Time taken: 273.163 seconds
